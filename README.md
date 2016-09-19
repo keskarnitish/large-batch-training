@@ -1,6 +1,7 @@
 # On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima
 by Nitish Shirish Keskar, Dheevatsa Mudigere, Jorge Nocedal, Mikhail Smelyanskiy and Peter Tang
 
+Paper link: [arXiv preprint](https://arxiv.org/abs/1609.04836)
 ### Table of Contents
 0. [Introduction](#introduction)
 0. [Citation](#citation)
@@ -9,16 +10,16 @@ by Nitish Shirish Keskar, Dheevatsa Mudigere, Jorge Nocedal, Mikhail Smelyanskiy
 
 ### Introduction
 
-This repository contains (Python) code needed to reproduce some of the figures in our paper. The plots illustrate the relative _sharpness_ of the minima obtained when trained using small-batch (SB) and large-batch (LB) methods. For ease of exposition, we use a Keras/Theano setup but owing to the simplicity of the code, translating the code into other frameworks should be easy. Please contact us if you have any questions, suggestions, requests or bug-reports.
+This repository contains (Python) code needed to reproduce some of the figures in our [paper](https://arxiv.org/abs/1609.04836). The plots illustrate the relative _sharpness_ of the minima obtained when trained using small-batch (SB) and large-batch (LB) methods. For ease of exposition, we use a Keras/Theano setup but owing to the simplicity of the code, translating the code into other frameworks should be easy. Please contact us if you have any questions, suggestions, requests or bug-reports.
 
 ### Citation
 
 If you use this code or our results in your research, please cite:
 
 	@article{Keskar2016,
-		author = {Nitish Shirish Keskar, Dheevatsa Mudigere, Jorge Nocedal, Mikhail Smelyanskiy and Peter Tang},
+		author = {Nitish Shirish Keskar, Dheevatsa Mudigere, Jorge Nocedal, Mikhail Smelyanskiy and Ping Tak Peter Tang},
 		title = {On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima},
-		journal = {arXiv preprint arXiv:1609.XXXXX},
+		journal = {arXiv preprint arXiv:1609.04836},
 		year = {2016}
 	}
 
