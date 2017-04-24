@@ -8,6 +8,9 @@ Paper link: [arXiv preprint](https://arxiv.org/abs/1609.04836)
 0. [Disclaimer and Known Issues](#disclaimer-and-known-issues)
 0. [Usage](#usage)
 
+### Update (April 24)
+Our code was written in Keras 1.X, there have been a lot of API changes in Keras 2.X which have broken our code. We're working on updating our code to support Keras 2.X but in the meantime, provide a preliminary PyTorch implementation (refer to the PyTorch folder for details). As always, we welcome any questions, suggestions, requests or bug-reports. 
+
 ### Introduction
 
 This repository contains (Python) code needed to reproduce some of the figures in our [paper](https://arxiv.org/abs/1609.04836). The plots illustrate the relative _sharpness_ of the minima obtained when trained using small-batch (SB) and large-batch (LB) methods. For ease of exposition, we use a Keras/Theano setup but owing to the simplicity of the code, translating the code into other frameworks should be easy. Please contact us if you have any questions, suggestions, requests or bug-reports.
